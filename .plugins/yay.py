@@ -1,1 +1,1 @@
-.plugins/yay/yay.py
+./.plugins/yay/yay.py
