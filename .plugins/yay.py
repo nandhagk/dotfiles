@@ -1,1 +1,1 @@
-./.plugins/yay/yay.py
+/home/nandhagk/.dotfiles/.plugins/yay/yay.py
