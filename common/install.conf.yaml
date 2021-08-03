@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.zshrc:
+      force: true
+      path: zshrc
+    ~/.aliases: aliases
+    ~/.gitconfig: gitconfig
+
+- create:
+    - ~/Projects

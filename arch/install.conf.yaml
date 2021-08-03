@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- shell:
+    - [sudo pacman -Syu --noconfirm, Performing a full system upgrade]
+    - [sudo pacman -S --noconfirm --needed base-devel git, Installing packages required by yay]
+    - [sudo pacman -S --noconfirm yay, Installing yay]
+
+- yay:
+    - google-chrome
+    - visual-studio-code-bin
+    - insomnia-bin
+
+    # Utility Packages
+    - exa
+    - fzf
+    - ripgrep
+
+    # Fonts
+    - nerd-fonts-fira-code
+    - ttf-fira-sans
