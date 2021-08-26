@@ -1,5 +1,11 @@
 [user]
 	email = nandhagopi@gmail.com
 	name = nandhagk
+	signingKey = 5205F2B003858DC7
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = false
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

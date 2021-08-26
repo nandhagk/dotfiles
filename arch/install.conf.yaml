@@ -12,6 +12,7 @@
     - google-chrome
     - visual-studio-code-bin
     - insomnia-bin
+    - github-cli
 
     # Utility Packages
     - exa
