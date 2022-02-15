@@ -9,16 +9,21 @@
     - [sudo pacman -S --noconfirm yay, Installing yay]
 
 - yay:
-    - google-chrome
-    - visual-studio-code-bin
-    - insomnia-bin
-    - github-cli
+    # General
+    - chromium
+    - firefox-developer-edition
+    - skypeforlinux-stable-bin
+    - spotify
+    - pop-theme
 
-    # Utility Packages
+    # Development
+    - docker
+    - github-cli
+    - insomnia-bin
+    - visual-studio-code-bin
+
+    # Utility
     - exa
     - fzf
     - ripgrep
-
-    # Fonts
-    - nerd-fonts-fira-code
-    - ttf-fira-sans
+    - tokei
