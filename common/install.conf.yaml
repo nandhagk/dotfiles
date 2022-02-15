@@ -6,10 +6,9 @@
 - clean: ["~"]
 
 - link:
-    ~/.zshrc:
+    ~/.bashrc:
       force: true
-      path: zshrc
-    ~/.aliases: aliases
+      path: bashrc
     ~/.gitconfig: gitconfig
 
 - create:
