@@ -7,9 +7,9 @@ alias py='ipython'
 alias mkdir='mkdir -p'
 
 # Wayland aliases
+alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias spotify='spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias google-chrome='google-chrome --enable-features=UseOzonePlatform --ozone-platform=wayland'
-alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
 
 # Exa Aliases
 alias ls='exa'                                                          # ls

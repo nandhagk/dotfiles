@@ -19,7 +19,7 @@ git config --global user.email "nandhagopi@gmail.com"
 ### Aesthetics
 
 ```bash
-sudo dnf install fontawesome-fonts mozilla-fira-sans-fonts  pop-gtk3-theme pop-icon-theme
+sudo dnf install fontawesome-fonts mozilla-fira-sans-fonts pop-gtk3-theme pop-icon-theme
 ```
 
 ### Rust
