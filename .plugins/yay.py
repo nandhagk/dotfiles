@@ -1,1 +1,0 @@
-/home/nandhagk/.dotfiles/.plugins/yay/yay.py
