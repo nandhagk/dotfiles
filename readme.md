@@ -3,7 +3,7 @@
 ### Utils
 
 ```bash
-sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone
+sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone obs-studio
 sudo hostnamectl hostname nanpc
 
 chsh -s /usr/bin/fish
@@ -14,6 +14,8 @@ fish_add_path ~/.local/bin
 gh auth login
 git config --global user.name "nandhagk"
 git config --global user.email "nandhagopi@gmail.com"
+
+rclone config
 ```
 
 ### Aesthetics
