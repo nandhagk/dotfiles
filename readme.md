@@ -3,7 +3,7 @@
 ### Utils
 
 ```bash
-sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol
+sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone
 sudo hostnamectl hostname nanpc
 
 chsh -s /usr/bin/fish
