@@ -24,7 +24,7 @@ client.urgent           $base08 $base08 $base00 $base08 $base08
 client.placeholder      $base00 $base00 $base05 $base00 $base00
 client.background       $base07
 
-# workspace_layout tabbed
+workspace_layout tabbed
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -104,6 +104,10 @@ input "10182:480:GXT7863:00_27C6:01E0_Touchpad" {
 	tap enabled
 	natural_scroll enabled
 }
+
+
+bindgesture swipe:right workspace prev
+bindgesture swipe:left workspace next
 
 ### Key bindings
 #
@@ -244,6 +248,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 font pango:MonoLisa Regular 11
+bindsym Shift+Print exec grimshot copy area
 
 # Include configs from 3 locations:
 #  - /usr/share/sway/config.d
