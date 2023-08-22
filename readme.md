@@ -3,7 +3,7 @@
 ### Utils
 
 ```bash
-sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone obs-studio
+sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone obs-studio bat fd-find fzf
 sudo hostnamectl hostname nanpc
 
 chsh -s /usr/bin/fish
@@ -38,7 +38,7 @@ curl https://get.volta.sh | bash
 volta install node@latest
 ```
 
-### Kitty
+### Kitty (Use foot its just better)
 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
