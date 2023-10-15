@@ -38,6 +38,12 @@ curl https://get.volta.sh | bash
 volta install node@latest
 ```
 
+### Python
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
 ### Kitty (Use foot its just better)
 
 ```bash
