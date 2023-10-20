@@ -8,9 +8,6 @@ sudo hostnamectl hostname nanpc
 
 chsh -s /usr/bin/fish
 
-pip install ipython numpy scipy
-fish_add_path ~/.local/bin
-
 gh auth login
 git config --global user.name "nandhagk"
 git config --global user.email "nandhagopi@gmail.com"
@@ -36,11 +33,17 @@ fish_add_path ~/.cargo/bin
 ```bash
 curl https://get.volta.sh | bash
 volta install node@latest
+volta install npm@bundled
+volta install yarn
+volta install pnpm
 ```
 
 ### Python
 
 ```bash
+pip install ipython numpy scipy
+fish_add_path ~/.local/bin
+
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
@@ -89,4 +92,5 @@ sudo dnf install \
  %fedora).noarch.rpm
 sudo dnf install lpf-spotify-client
 ```
+
 https://discussion.fedoraproject.org/t/cannot-build-lpf-spotify-client/61853/23
