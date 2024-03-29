@@ -45,7 +45,7 @@
     background: transparent;
     color: @primary_blue;
     background-color: @base;
-    font-family: Font Awesome, MonoLisa;
+    font-family: 'MonoLisa', 'Font Awesome 6 Free', 'Font Awesome 6 Brands';
     font-size: 13px;
     /*border-radius: 15px;*/
 }

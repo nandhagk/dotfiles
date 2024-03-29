@@ -1,7 +1,7 @@
 . ~/.config/fish/aliases.fish
 
 set -gx fish_greeting ''
-set -gx EDITOR /usr/bin/hx
+set -gx EDITOR /usr/bin/nvim
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

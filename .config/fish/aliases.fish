@@ -22,7 +22,7 @@ alias lt='exa --tree --level=2'                                         # tree
 
 # Codeforces runner
 function cf --argument Q
-    g++ ./$Q/$Q.cpp --std=c++20 -O2 -fsanitize=address -fsanitize=undefined -Wall -Wextra -Wconversion $argv[2..-1] -o ./build/$Q && ./build/$Q < ./$Q/input.txt
+    g++ ./$Q/$Q.cpp --std=c++20 -O2 -fsanitize=address -fsanitize=undefined -Wall -Wextra -Wconversion $argv[2..-1] -o ./.build/$Q && ./.build/$Q < ./$Q/input.txt
 end
 
 # Git Aliases

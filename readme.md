@@ -3,7 +3,7 @@
 ### Utils
 
 ```bash
-sudo dnf install fish exa btop gh python3-pip neofetch cmatrix pavucontrol rclone obs-studio bat fd-find fzf
+sudo dnf install fish eza btop gh python3-pip pavucontrol rclone obs-studio fzf
 sudo hostnamectl hostname nanpc
 
 chsh -s /usr/bin/fish
@@ -18,7 +18,7 @@ rclone config
 ### Aesthetics
 
 ```bash
-sudo dnf install fontawesome-fonts mozilla-fira-sans-fonts pop-gtk3-theme pop-icon-theme
+sudo dnf install mozilla-fira-sans-fonts pop-gtk3-theme pop-icon-theme
 ```
 
 ### Rust
