@@ -33,8 +33,6 @@ fish_add_path ~/.cargo/bin
 ```bash
 curl https://get.volta.sh | bash
 volta install node@latest
-volta install npm@bundled
-volta install yarn
 volta install pnpm
 ```
 
@@ -67,9 +65,7 @@ sudo dnf install google-chrome-stable
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.micr
-osoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft
-.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 sudo dnf check-update
 sudo dnf install code
 ```
@@ -84,12 +80,8 @@ sudo dnf install libasan libubsan cmake
 ### Spotify
 
 ```bash
-sudo dnf install \
-  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedo
-ra).noarch.rpm
-sudo dnf install \
-  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E
- %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install lpf-spotify-client
 ```
 
